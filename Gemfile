@@ -16,6 +16,9 @@ gem 'bootstrap-sass', '~> 3.4.1'
 
 gem 'jquery-rails'
 
+# Use font awesome library for icons
+gem 'font-awesome-sass', '~> 5.11.2'
+
 # use postgresql as the database for production
 group :production do
 	gem 'pg'
