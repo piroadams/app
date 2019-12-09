@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <head>
     <title>Dev Match</title>
@@ -34,6 +34,10 @@
 
 
 		<div class="container">
+			<% flash.each do |key, value| %>
+				<%= content_tag :div, value, class: "alert alert-#{key}" %>
+			<% end %>
+
 			<%= yield %>
 		</div>
     
