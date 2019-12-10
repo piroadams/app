@@ -25,7 +25,9 @@ group :production do
 	gem 'rails_12factor'
 end
 
-gem 'devise', '~> 4.2.0'
+gem 'devise', '~> 4.2'
+
+gem 'railties', '~> 5.0', '>= 5.0.0.1'
 
 # Use Puma as the app server
 
